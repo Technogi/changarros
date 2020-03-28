@@ -23,7 +23,6 @@ const BusinessesCrudPage = () => {
       <PageTitle>Changarros</PageTitle>
       <Connect query={graphqlOperation(listBusinesss)}>
         {({ data, loading }) => {
-          console.log(1111, data)
           return loading ? (
             <div>cargando</div>
           ) : (

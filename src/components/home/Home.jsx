@@ -1,7 +1,12 @@
 import React from 'react'
+import { Link } from '@material-ui/core'
 
 const HomePage = () => {
-  return <div>Home</div>
+  return (
+    <div>
+      <Link href="businesses">Changarros</Link>
+    </div>
+  )
 }
 
 export default HomePage
