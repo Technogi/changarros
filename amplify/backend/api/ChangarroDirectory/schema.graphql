@@ -1,0 +1,16 @@
+type Location {
+  lat: Float
+  lon: Float
+}
+
+
+type Business @model @searchable {
+  id: ID!
+  name: String!
+  description: String
+  phoneNumber: String
+  whatsappNumber: String
+  webpage: String
+  address: String
+  location: Location
+}

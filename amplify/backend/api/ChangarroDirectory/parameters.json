@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "ChangarroDirectory",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authchangarroba752502",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-changarro-dev-124422-authRole",
+            "UnauthRoleArn": "arn:aws:iam::473772187462:role/amplify-changarro-dev-124422-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::473772187462:role/amplify-changarro-dev-124422-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-changarro-dev-124422-deployment",
+            "UnauthRoleName": "amplify-changarro-dev-124422-unauthRole",
+            "StackName": "amplify-changarro-dev-124422",
+            "StackId": "arn:aws:cloudformation:us-east-1:473772187462:stack/amplify-changarro-dev-124422/fc2ac390-705a-11ea-89ca-12a417a66525",
+            "AmplifyAppId": "d8bdrdpqjr691"
+        },
+        "categories": {
+            "auth": {
+                "changarroba752502": {}
+            }
+        }
+    }
+}
